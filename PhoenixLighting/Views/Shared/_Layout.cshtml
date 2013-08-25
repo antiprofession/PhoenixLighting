@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    <link href="@Url.Content("~/Content/bootstrap.min.css")" rel="stylesheet" type="text/css" /> 
+    <link href="@Url.Content("~/Content/bootstrap-responsive.min.css")" rel="stylesheet" type="text/css" />
+    @Scripts.Render("~/bundles/modernizr")
+    <script src="@Url.Content("~/Scripts/jquery-1.7.1.min.js")" type="text/javascript"></script> 
+    <script src="@Url.Content("~/Scripts/bootstrap.min.js")" type="text/javascript"></script>
+   
+</head>
+<body>
+    <div id="header" class="head">
+        <div class="wraper bg rel">
+            <div id="search">
+                <form>
+                    <input />
+                </form>
+            </div>
+            <div class="logo">
+                <h1>LOGO</h1>
+            </div>
+            <div class="callme">
+                <b>call 0755-58746321</b>
+            </div>
+            <ul id="menu">
+                <li id="li0"><a href="1">Cases</a></li>
+                <li id="li1"><a href="2">Products</a></li>
+                <li id="li2"><a href="3">Press Center</a></li>
+                <li id="li3"><a href="4">Support</a></li>
+                <li id="li4"><a href="5">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

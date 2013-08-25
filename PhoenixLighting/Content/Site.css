@@ -1,0 +1,199 @@
+﻿body
+{
+	font-size: .85em;
+	font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px;
+}
+
+
+header, footer, nav, section {
+	display: block;
+}
+
+
+div
+{
+	padding: 0px ;
+	margin: 0px;
+}
+
+
+.head
+{
+	z-index: 2;
+	position: relative;
+	width: 100%;
+	background: url(image/bg_head.jpg) repeat-x;
+	background-position-x:0px;
+	background-position-y:0px;
+	background-color:transparent;
+	height: 78px;
+}
+
+#search
+{
+	position: relative;
+	/*
+	margin-top: 4px;
+	width: 160px;
+	height: 21px;
+	*/
+	display: inline;
+	float: right;
+	overflow: hidden;
+}
+	#search input{
+		border-bottom-style: none;
+		padding-bottom: 0px;
+		line-height: 21px;
+		margin: 0px;
+		border-left-style: none;
+		padding-left: 0px;
+		padding-right: 0px;
+		border-top-style: none;
+		background-image: none ;
+		background-color: transparent ;
+		background-attachment:scroll;
+		background-repeat: repeat;
+		background-position-x:0% ;
+		background-position-y:0%;
+		float: left;
+		height: 21px;
+		width:155px;
+		color: #797979;
+		border-right-style: none;
+		padding-top: 0px;
+	}
+
+.logo{
+	width: 120px;
+	margin-top:25px;
+	float:left;
+}
+
+.callme
+{
+	margin:0px;
+	height: 38px;
+	line-height: 28px;
+	float: left;
+	padding-left: 540px;
+}
+
+.wraper{
+	width: 980px;
+	margin: 0px auto ;
+}
+
+.head .wraper {
+	background-position: center top; 
+	height: 78px
+}
+
+.bg{
+	background-image: url(image/bg.png);
+	background-repeat: no-repeat;
+}
+
+.rel{
+	position: relative;
+}
+
+#menu
+{
+	width: 484px;
+	float: right;
+	position: relative;
+}
+
+li{
+	list-style-type:none;
+}
+
+	#menu li
+	{
+		float: left;
+	}
+
+		#menu li a
+		{
+			text-indent: -99999em;
+			width: 100%;
+			display: block;
+			float: left;
+			height: 40px;
+		}
+
+#li0
+{
+	width: 72px;
+}
+#li1
+{
+	width: 100px;
+}
+#li2
+{
+	width: 122px;
+}
+#li3
+{
+	width: 100px;
+}
+#li4
+{
+	width: 90px;
+}
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+	border: 1px solid #ddd;
+	padding: 0 1.4em 1.4em 1.4em;
+	margin: 0 0 1.5em 0;
+}
+
+legend {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+textarea {
+	min-height: 75px;
+}
+
+.editor-label {
+	margin: 1em 0 0 0;
+}
+
+.editor-field {
+	margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+	color: #f00;
+}
+
+.field-validation-valid {
+	display: none;
+}
+
+.input-validation-error {
+	border: 1px solid #f00;
+	background-color: #fee;
+}
+
+.validation-summary-errors {
+	font-weight: bold;
+	color: #f00;
+}
+
+.validation-summary-valid {
+	display: none;
+}
