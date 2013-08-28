@@ -2,7 +2,7 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+<!--
 <div class="banner wraper">
     <div class="hero-unit">
         <h2>Tube lighting</h2>
@@ -10,46 +10,46 @@
         <p><a class="btn btn-primary btn-large">Learn more</a></p>
     </div>
 </div>
-
+    -->
 
 <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="item">
-          <img alt="" src="~/Content/image/banner1.gif">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>COB Downlight Series</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Learn more</a>
+          <img alt="" src="~/Content/image/banner1.gif" style="margin-left:50px">
+            <div class="container">
+                <div class="carousel-caption" style="left:600px;right:50px;background-color:rgba(0,0,0,0.25)">
+                    <h1>COB Downlight Series</h1>
+                    <p class="lead">COB Downlight Series Description.</p>
+                    <a class="btn btn-large btn-primary" href="#">Learn more</a>
+                </div>
             </div>
-          </div>
         </div>
         <div class="item active">
-          <img alt="" src="~/Content/image/banner2.gif">
+          <img alt="" src="~/Content/image/banner2.gif" style="margin-left:50px">
           <div class="container">
-            <div class="carousel-caption">
+            <div class="carousel-caption" style="left:600px;right:50px;background-color:rgba(0,0,0,0.25)">
               <h1>LED panel light series</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p class="lead">LED panel light series Description</p>
               <a class="btn btn-large btn-primary" href="#">Learn more</a>
             </div>
           </div>
         </div>
         <div class="item">
-          <img alt="" src="~/Content/image/banner3.gif">
+          <img alt="" src="~/Content/image/banner3.gif" style="margin-left:50px">
           <div class="container">
-            <div class="carousel-caption">
+            <div class="carousel-caption" style="left:600px;right:50px;background-color:rgba(0,0,0,0.25)">
               <h1>SMD Down Light Series</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p class="lead">SMD Down Light Series Description</p>
               <a class="btn btn-large btn-primary" href="#">Learn more</a>
             </div>
           </div>
         </div>
         <div class="item">
-          <img alt="" src="~/Content/image/banner4.gif">
+          <img alt="" src="~/Content/image/banner4.gif" style="margin-left:50px">
           <div class="container">
-            <div class="carousel-caption">
+            <div class="carousel-caption" style="left:600px;right:50px;background-color:rgba(0,0,0,0.25)">
               <h1>LED Bulb Series</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p class="lead">LED Bulb Series Description</p>
               <a class="btn btn-large btn-primary" href="#">Learn more</a>
             </div>
           </div>
@@ -59,5 +59,78 @@
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
     </div><!-- /.carousel -->
+
+<div class="index">
+    <div class="wraper">
+        <dl >
+            <dt class="bg">
+                <a href="1">
+                    <img style="width:110px;height:110px" src="~/Content/image/index1.jpg" />
+                    <h2>LED Bulb Series</h2>
+                </a>
+            </dt>
+            <dd>
+                Description<br />
+                Our LED Bulb Series products is popular.
+            </dd>
+        </dl>
+        <dl class="m1">
+            <dt class="bg ">
+                <a href="1">
+                    <img style="width:110px;height:110px" src="~/Content/image/index1.jpg" />
+                    <h2>COB Downlight Series</h2>
+                </a>
+            </dt>
+            <dd>
+                Description
+            </dd>
+        </dl >
+        <dl class="m2">
+            <dt class="bg ">
+                <a href="1">
+                    <img style="width:110px;height:110px" src="~/Content/image/index1.jpg" />
+                    <h2>SMD Down Light Series</h2>
+                </a>
+            </dt>
+            <dd>
+                Description
+            </dd>
+        </dl>
+        <dl>
+            <dt class="bg">
+                <a href="1">
+                    <img style="width:110px;height:110px" src="~/Content/image/index1.jpg" />
+                    <h2>LED panel light series</h2>
+                </a>
+            </dt>
+            <dd>
+                Description
+            </dd>
+        </dl>
+    </div>
+    <div style="clear:both"></div>
+</div>
+
+<div class="foot_own">
+    <div class="wraper">
+        <div class=right ">
+            <a href="./case/all/">
+                <h2>Global Cases</h2>
+            </a>
+            <div class="fl">
+                <img class=img border=0 src="~/content/image/worldmap.gif" usemap=#map> 
+                <map id=map name=map>
+                    <area title="north america" href="./case/north_america/" shape=poly coords=42,67,49,68,52,71,57,70,63,76,68,76,72,78,74,80,76,78,77,72,80,67,87,63,93,58,96,51,104,42,116,34,123,29,124,17,130,12,121,9,115,7,104,9,98,10,87,9,73,9,66,10,60,13,50,14,45,16,41,20,40,25,29,27,16,27,10,29,4,40,7,48,14,47,16,45,24,43,31,45,38,54>
+                    <area title="latin america" href="./case/latin_america/" shape=poly coords=40,67,45,75,50,83,61,90,77,101,74,110,84,124,82,135,80,152,85,160,88,150,92,141,100,133,109,118,106,109,86,95,62,76 >
+                    <area title="middle east africa" href="./case/middle_east_africa/" shape=poly coords=182,90,175,84,174,76,170,69,166,67,160,71,151,72,146,69,135,72,129,76,127,90,136,100,148,107,148,117,148,125,154,135,161,133,165,126,176,124,179,117,173,111 >
+                    <area title=europe href="./case/europe/" shape=poly coords=148,66,141,64,138,69,133,68,132,63,129,54,139,36,152,29,165,26,174,29,178,34,177,53,170,61,162,67,152,69 >
+                    <area title=cis href="./case/cis/" shape=poly coords=246,61,233,51,226,56,210,54,201,57,194,63,190,64,181,56,178,53,179,32,182,23,187,19,193,24,187,28,194,27,203,24,208,20,214,14,218,12,225,17,240,24,250,21,260,22,268,27,282,26,288,37,271,44,267,51,254,64 >
+                    <area title="asia paciflc" href="./case/asia_pacific/" shape=poly coords=226,57,213,56,207,56,202,58,193,65,188,64,181,58,177,58,170,62,170,68,174,76,177,83,183,91,188,85,194,84,196,93,200,97,207,86,212,86,215,97,224,119,233,137,260,149,281,148,282,143,262,111,237,87,225,91,221,89,216,88,212,86,209,84,210,81,208,80,204,80,200,77,197,74,195,69,196,64,200,62,207,59,211,60,214,63,220,64,226,61 >
+                    <area title=china href="./case/china/" shape=poly coords=214,84,213,80,208,79,204,79,199,75,197,71,196,68,197,64,202,63,207,60,209,59,213,63,216,64,220,65,224,63,227,60,227,57,232,53,239,58,235,82,226,88 >
+                </map>
+            </div>
+        </div><!--世界地图 end-->
+    </div>
+</div>
 
 

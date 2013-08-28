@@ -22,4 +22,12 @@ namespace PhoenixLighting.Model
         public string Advantages { get; set; }
         public string Specifications { get; set; }
     }
+
+    public class User
+    {
+        public int uid { get; set; }
+        public string name{get; set;}
+        public string pwd { get; set; }
+        public int role { get; set; }//0 admin; 1 user
+    }
 }

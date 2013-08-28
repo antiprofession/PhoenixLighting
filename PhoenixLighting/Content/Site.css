@@ -1,26 +1,7 @@
-﻿body
-{
-	font-size: .85em;
-	font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
-	PADDING-BOTTOM: 0px;
-	MARGIN: 0px;
-	PADDING-LEFT: 0px;
-	PADDING-RIGHT: 0px;
-	PADDING-TOP: 0px;
-}
-
-
+﻿
 header, footer, nav, section {
 	display: block;
 }
-
-
-div
-{
-	padding: 0px ;
-	margin: 0px;
-}
-
 
 .head
 {
@@ -148,6 +129,54 @@ li{
 {
 	width: 90px;
 }
+
+.index{
+	width:100%;
+    margin:0px;
+    padding:0px;
+}
+
+.index dl{
+	width:230px;
+	float:left;
+}
+
+.m1{
+	margin-left:20px;
+	margin-right:10px;
+}
+
+.m2{
+	margin-left:10px;
+	margin-right:20px;
+}
+
+.index dl dt{
+	width:235px;
+	height:123px;
+	line-height:23px;
+	margin-bottom:10px;
+	background-position-x:-345px;
+	background-position-y:-294px;
+}
+
+.index dl dt h2{
+	width:123px;
+	line-height:23px;
+	padding-top:20px;
+	font-size:18px;
+	float:left;
+}
+
+.foot_own{
+	width:100%;
+	background-image:url(image/bg_foot.gif);
+	background-repeat:repeat-x;
+	background-position-x:left;
+	background-position-y:43px;
+	background-color:rgb(0,162,224);
+}
+
 /* Styles for basic forms
 -----------------------------------------------------------*/
 fieldset {

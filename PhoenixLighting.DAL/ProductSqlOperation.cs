@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PhoenixLighting.Model;
+using PhoenixLighting.IDAL;
 
 namespace PhoenixLighting.DAL
 {
-    class ProductSqlOperation:BaseSqlOperation<Product>
+    class ProductSqlOperation:BaseSqlOperation<Product>,IProductSqlOperation
     {
     }
 }
